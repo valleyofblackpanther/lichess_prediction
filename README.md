@@ -22,6 +22,8 @@ Execute the application with `stack run`, followed by the desired commands and a
 - `predict [p1, p2]`: Predict the winner between two players in the database.
 - `export`: Write the database to a file in JSON format.
 
+![Output](image.png)
+
 ## Extra Challenging Feature
 The application includes an advanced feature that allows users to initialize and train a machine learning model. The model, based on logistic regression, predicts the outcome of matches by analyzing the rating difference between two players. The process involves feature engineering, training on a dataset, classifying, and comparing predictions to actual outcomes. The trained model's weights are saved to `weights.txt`, which are then read for future predictions.
 
